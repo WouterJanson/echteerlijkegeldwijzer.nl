@@ -4,6 +4,10 @@
     max-width: 80%;
 }
 
+.project-tagline {
+    margin-bottom: 0;
+}
+
 tbody {
     margin: auto;
 }
