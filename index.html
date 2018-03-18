@@ -137,7 +137,8 @@ title: {{ site.name }}
     <tr>
         <td>Olie en gas</td>
         {% for bank in data_set %}
-        <td>{{ bank[1].Report.Olie-gas.Grade }}</td>            {% endfor %}
+        <td>{{ bank[1].Report.Olie-gas.Grade }}</td>            
+        {% endfor %}
     </tr>
 </table>
 
