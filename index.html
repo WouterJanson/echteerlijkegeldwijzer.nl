@@ -27,127 +27,127 @@ Bunq investeert alleen in staatsobligaties, hier valt dus geen score voor te ber
     <tr>
         <td>Bonussen</td>
         {% for bank in data_set %}
-        <td data="{{ bank[1].Report.Bonussen.Grade }}">{{ bank[1].Report.Bonussen.Grade }}</td>
+        <td title="{{ bank[1].Report.Bonussen.Remarks }}" data="{{ bank[1].Report.Bonussen.Grade }}">{{ bank[1].Report.Bonussen.Grade }}</td>
         {% endfor %}
     </tr>
     <tr>
         <td>Dierenwelzijn</td>
         {% for bank in data_set %}
-        <td data="{{ bank[1].Report.Dierenwelzijn.Grade }}">{{ bank[1].Report.Dierenwelzijn.Grade }}</td>
+        <td title="{{ bank[1].Report.Dierenwelzijn.Remarks }}" data="{{ bank[1].Report.Dierenwelzijn.Grade }}">{{ bank[1].Report.Dierenwelzijn.Grade }}</td>
         {% endfor %}
     </tr>
     <tr>
         <td>Klimaatverandering</td>
         {% for bank in data_set %}
-        <td data="{{ bank[1].Report.Klimaatverandering.Grade }}">{{ bank[1].Report.Klimaatverandering.Grade }}</td>
+        <td title="{{ bank[1].Report.Klimaatverandering.Remarks }}" data="{{ bank[1].Report.Klimaatverandering.Grade }}">{{ bank[1].Report.Klimaatverandering.Grade }}</td>
         {% endfor %}
     </tr>
     <tr>
         <td>Transparantie</td>
         {% for bank in data_set %}
-        <td data="{{ bank[1].Report.Transparantie.Grade }}">{{ bank[1].Report.Transparantie.Grade }}</td>
+        <td title="{{ bank[1].Report.Transparantie.Remarks }}" data="{{ bank[1].Report.Transparantie.Grade }}">{{ bank[1].Report.Transparantie.Grade }}</td>
         {% endfor %}
     </tr>
     <tr>
         <td>Gezondheid</td>
         {% for bank in data_set %}
-        <td data="{{ bank[1].Report.Gezondheid.Grade }}">{{ bank[1].Report.Gezondheid.Grade }}</td>
+        <td title="{{ bank[1].Report.Gezondheid.Remarks }}" data="{{ bank[1].Report.Gezondheid.Grade }}">{{ bank[1].Report.Gezondheid.Grade }}</td>
         {% endfor %}
     </tr>
     <tr>
         <td>Gendergelijkheid</td>
         {% for bank in data_set %}
-        <td data="{{ bank[1].Report.Gendergelijkheid.Grade }}">{{ bank[1].Report.Gendergelijkheid.Grade }}</td>
+        <td title="{{ bank[1].Report.Gendergelijkheid.Remarks }}" data="{{ bank[1].Report.Gendergelijkheid.Grade }}">{{ bank[1].Report.Gendergelijkheid.Grade }}</td>
         {% endfor %}
     </tr>
     <tr>
         <td>Wapens</td>
         {% for bank in data_set %}
-        <td data="{{ bank[1].Report.Wapens.Grade }}">{{ bank[1].Report.Wapens.Grade }}</td>
+        <td title="{{ bank[1].Report.Wapens.Remarks }}" data="{{ bank[1].Report.Wapens.Grade }}">{{ bank[1].Report.Wapens.Grade }}</td>
         {% endfor %}
     </tr>
     <tr>
         <td>Mensenrechten</td>
         {% for bank in data_set %}
-        <td data="{{ bank[1].Report.Mensenrechten.Grade }}">{{ bank[1].Report.Mensenrechten.Grade }}</td>
+        <td title="{{ bank[1].Report.Mensenrechten.Remarks }}" data="{{ bank[1].Report.Mensenrechten.Grade }}">{{ bank[1].Report.Mensenrechten.Grade }}</td>
         {% endfor %}
     </tr>
     <tr>
         <td>Arbeidsrechten</td>
         {% for bank in data_set %}
-        <td data="{{ bank[1].Report.Arbeidsrechten.Grade }}">{{ bank[1].Report.Arbeidsrechten.Grade }}</td>
+        <td title="{{ bank[1].Report.Arbeidsrechten.Remarks }}" data="{{ bank[1].Report.Arbeidsrechten.Grade }}">{{ bank[1].Report.Arbeidsrechten.Grade }}</td>
         {% endfor %}
     </tr>
     <tr>
         <td>Woningbouw & vastgoed</td>
         {% for bank in data_set %}
-        <td data="{{ bank[1].Report.Woningbouw-vastgoed.Grade }}">{{ bank[1].Report.Woningbouw-vastgoed.Grade }}</td>
+        <td title="{{ bank[1].Report.Woningbouw-vastgoed.Remarks }}" data="{{ bank[1].Report.Woningbouw-vastgoed.Grade }}">{{ bank[1].Report.Woningbouw-vastgoed.Grade }}</td>
         {% endfor %}
     </tr>
     <tr>
         <td>Bosbouw</td>
         {% for bank in data_set %}
-        <td data="{{ bank[1].Report.Bosbouw.Grade }}">{{ bank[1].Report.Bosbouw.Grade }}</td>
+        <td title="{{ bank[1].Report.Bosbouw.Remarks }}" data="{{ bank[1].Report.Bosbouw.Grade }}">{{ bank[1].Report.Bosbouw.Grade }}</td>
         {% endfor %}
     </tr>
     <tr>
         <td>Corruptie</td>
         {% for bank in data_set %}
-        <td data="{{ bank[1].Report.Corruptie.Grade }}">{{ bank[1].Report.Corruptie.Grade }}</td>
+        <td title="{{ bank[1].Report.Corruptie.Remarks }}" data="{{ bank[1].Report.Corruptie.Grade }}">{{ bank[1].Report.Corruptie.Grade }}</td>
         {% endfor %}
     </tr>
     <tr>
         <td>Visserij</td>
         {% for bank in data_set %}
-        <td data="{{ bank[1].Report.Visserij.Grade }}">{{ bank[1].Report.Visserij.Grade }}</td>
+        <td title="{{ bank[1].Report.Visserij.Remarks }}" data="{{ bank[1].Report.Visserij.Grade }}">{{ bank[1].Report.Visserij.Grade }}</td>
         {% endfor %}
     </tr>
     <tr>
         <td>Financiële sector</td>
         {% for bank in data_set %}
-        <td data="{{ bank[1].Report.Financiele-sector.Grade }}">{{ bank[1].Report.Financiele-sector.Grade }}</td>
+        <td title="{{ bank[1].Report.Financiele-sector.Remarks }}" data="{{ bank[1].Report.Financiele-sector.Grade }}">{{ bank[1].Report.Financiele-sector.Grade }}</td>
         {% endfor %}
     </tr>
     <tr>
         <td>Elektriciteitsproductie</td>
         {% for bank in data_set %}
-        <td data="{{ bank[1].Report.Elektriciteitsproductie.Grade }}">{{ bank[1].Report.Elektriciteitsproductie.Grade }}</td>
+        <td title="{{ bank[1].Report.Elektriciteitsproductie.Remarks }}" data="{{ bank[1].Report.Elektriciteitsproductie.Grade }}">{{ bank[1].Report.Elektriciteitsproductie.Grade }}</td>
         {% endfor %}
     </tr>
     <tr>
         <td>Natuur</td>
         {% for bank in data_set %}
-        <td data="{{ bank[1].Report.Natuur.Grade }}">{{ bank[1].Report.Natuur.Grade }}</td>
+        <td title="{{ bank[1].Report.Natuur.Remarks }}" data="{{ bank[1].Report.Natuur.Grade }}">{{ bank[1].Report.Natuur.Grade }}</td>
         {% endfor %}
     </tr>
     <tr>
         <td>Belastingen</td>
         {% for bank in data_set %}
-        <td data="{{ bank[1].Report.Belastingen.Grade }}">{{ bank[1].Report.Belastingen.Grade }}</td>
+        <td title="{{ bank[1].Report.Belastingen.Remarks }}" data="{{ bank[1].Report.Belastingen.Grade }}">{{ bank[1].Report.Belastingen.Grade }}</td>
         {% endfor %}
     </tr>
     <tr>
         <td>Voeding</td>
         {% for bank in data_set %}
-        <td data="{{ bank[1].Report.Voeding.Grade }}">{{ bank[1].Report.Voeding.Grade }}</td>
+        <td title="{{ bank[1].Report.Voeding.Remarks }}" data="{{ bank[1].Report.Voeding.Grade }}">{{ bank[1].Report.Voeding.Grade }}</td>
         {% endfor %}
     </tr>
     <tr>
         <td>Maakindustrie</td>
         {% for bank in data_set %}
-        <td data="{{ bank[1].Report.Maakindustrie.Grade }}">{{ bank[1].Report.Maakindustrie.Grade }}</td>
+        <td title="{{ bank[1].Report.Maakindustrie.Remarks }}" data="{{ bank[1].Report.Maakindustrie.Grade }}">{{ bank[1].Report.Maakindustrie.Grade }}</td>
         {% endfor %}
     </tr>
     <tr>
         <td>Mijnbouw</td>
         {% for bank in data_set %}
-        <td data="{{ bank[1].Report.Mijnbouw.Grade }}">{{ bank[1].Report.Mijnbouw.Grade }}</td>
+        <td title="{{ bank[1].Report.Mijnbouw.Remarks }}" data="{{ bank[1].Report.Mijnbouw.Grade }}">{{ bank[1].Report.Mijnbouw.Grade }}</td>
         {% endfor %}
     </tr>
     <tr>
         <td>Olie en gas</td>
         {% for bank in data_set %}
-        <td data="{{ bank[1].Report.Olie-gas.Grade }}">{{ bank[1].Report.Olie-gas.Grade }}</td>
+        <td title="{{ bank[1].Report.Olie-gas.Remarks }}" data="{{ bank[1].Report.Olie-gas.Grade }}">{{ bank[1].Report.Olie-gas.Grade }}</td>
         {% endfor %}
     </tr>
 </table>
