@@ -2,65 +2,65 @@ Name: "Rabobank"
 Logo: "img/rabobank.png"
 Report:
   Bonussen:
-    Grade: 0
+    Grade: 5
     Remarks: ""
   Dierenwelzijn:
-    Grade: 0
+    Grade: 6
     Remarks: ""
   Klimaatverandering:
-    Grade: 0
+    Grade: 3
     Remarks: ""
   Transparantie:
-    Grade: 0
+    Grade: 5
     Remarks: ""
   Gezondheid:
-    Grade: 0
+    Grade: 6
     Remarks: ""
   Gendergelijkheid:
-    Grade: 0
+    Grade: 4
     Remarks: ""
   Wapens:
-    Grade: 0
+    Grade: 7
     Remarks: ""
   Mensenrechten:
-    Grade: 0
+    Grade: 8
     Remarks: ""
   Arbeidsrechten:
-    Grade: 0
+    Grade: 9
     Remarks: ""
   Woningbouw-vastgoed:
-    Grade: 0
+    Grade: 3
     Remarks: ""
   Bosbouw:
-    Grade: 0
+    Grade: 5
     Remarks: ""
   Corruptie:
-    Grade: 0
+    Grade: 8
     Remarks: ""
   Visserij:
-    Grade: 0
+    Grade: 6
     Remarks: ""
   Financiele-sector:
-    Grade: 0
+    Grade: 3
     Remarks: ""
   Elektriciteitsproductie:
-    Grade: 0
+    Grade: 5
     Remarks: ""
   Natuur:
-    Grade: 0
+    Grade: 6
     Remarks: ""
   Belastingen:
-    Grade: 0
+    Grade: 5
     Remarks: ""
   Voeding:
-    Grade: 0
+    Grade: 6
     Remarks: ""
   Maakindustrie:
-    Grade: 0
+    Grade: 6
     Remarks: ""
   Mijnbouw:
-    Grade: 0
+    Grade: 6
     Remarks: ""
   Olie-gas:
-    Grade: 0
+    Grade: 7
     Remarks: ""
