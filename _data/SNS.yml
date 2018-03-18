@@ -1,5 +1,5 @@
 Name: "SNS"
-Logo: "URL"
+Logo: "/img/sns.svg"
 Report:
   Bonussen:
     Grade: 0
@@ -64,5 +64,3 @@ Report:
   Olie-gas:
     Grade: 0
     Remarks: ""
-
-    

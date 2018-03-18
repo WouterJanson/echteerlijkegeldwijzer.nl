@@ -2,16 +2,20 @@ tbody {
     margin: auto;
 }
 
-th {
-    background-color: #202020;
-    color: #fff;
-    border-color: #202020;
+.main-content table th {
+    background-color: #fff;
+    color: #202020;
+    padding: 0.5rem;
+}
+
+.main-content th img {
+    width: 100px;
 }
 
 td:not(:first-child) {
     text-align: center;
 }
-  
+
 tr:nth-child(odd) {
     background-color: #f2f2f2;
 }
