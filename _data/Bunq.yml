@@ -2,7 +2,7 @@ Name: "bunq"
 Logo: "img/bunq.svg"
 Report:
   Bonussen:
-    Grade: 0
+    Grade: 10
     Remarks: ""
   Dierenwelzijn:
     Grade: 0
@@ -11,7 +11,7 @@ Report:
     Grade: 0
     Remarks: ""
   Transparantie:
-    Grade: 0
+    Grade: 10
     Remarks: ""
   Gezondheid:
     Grade: 0
