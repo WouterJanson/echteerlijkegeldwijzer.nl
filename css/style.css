@@ -1,3 +1,9 @@
+.logo {
+    height: auto;
+    max-height: 180px;
+    max-width: 80%;
+}
+
 tbody {
     margin: auto;
 }
