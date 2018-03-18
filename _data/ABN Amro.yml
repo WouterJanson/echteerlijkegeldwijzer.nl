@@ -2,65 +2,65 @@ Name: "ABN Amro"
 Logo: "img/abn-amro.svg"
 Report:
   Bonussen:
-    Grade: 0
+    Grade: 5
     Remarks: ""
   Dierenwelzijn:
-    Grade: 0
+    Grade: 7
     Remarks: ""
   Klimaatverandering:
-    Grade: 0
+    Grade: 3
     Remarks: ""
   Transparantie:
-    Grade: 0
+    Grade: 5
     Remarks: ""
   Gezondheid:
-    Grade: 0
+    Grade: 8
     Remarks: ""
   Gendergelijkheid:
     Grade: 0
     Remarks: ""
   Wapens:
-    Grade: 0
+    Grade: 9
     Remarks: ""
   Mensenrechten:
-    Grade: 0
+    Grade: 9
     Remarks: ""
   Arbeidsrechten:
-    Grade: 0
+    Grade: 8
     Remarks: ""
   Woningbouw-vastgoed:
-    Grade: 0
+    Grade: 5
     Remarks: ""
   Bosbouw:
-    Grade: 0
+    Grade: 6
     Remarks: ""
   Corruptie:
-    Grade: 0
+    Grade: 7
     Remarks: ""
   Visserij:
-    Grade: 0
+    Grade: 4
     Remarks: ""
   Financiele-sector:
-    Grade: 0
+    Grade: 3
     Remarks: ""
   Elektriciteitsproductie:
-    Grade: 0
+    Grade: 6
     Remarks: ""
   Natuur:
-    Grade: 0
+    Grade: 6
     Remarks: ""
   Belastingen:
-    Grade: 0
+    Grade: 4
     Remarks: ""
   Voeding:
-    Grade: 0
+    Grade: 8
     Remarks: ""
   Maakindustrie:
-    Grade: 0
+    Grade: 7
     Remarks: ""
   Mijnbouw:
-    Grade: 0
+    Grade: 6
     Remarks: ""
   Olie-gas:
-    Grade: 0
+    Grade: 7
     Remarks: ""
