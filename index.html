@@ -1,6 +1,6 @@
---- 
-layout: default 
-title: {{ site.name }} 
+---
+layout: default
+title: {{ site.name }}
 ---
 
 <h3>Lorem ipsum</h3>
@@ -11,7 +11,9 @@ title: {{ site.name }}
     <tr>
         <th></th>
         {% for bank in data_set %}
-        <th>{{ bank[1].Name }}</th>
+        <th>
+            <img src="{{ bank[1].Logo }}" alt="{{ bank[1].Name }}" />
+        </th>
         {% endfor %}
     </tr>
     <tr>
@@ -137,7 +139,7 @@ title: {{ site.name }}
     <tr>
         <td>Olie en gas</td>
         {% for bank in data_set %}
-        <td>{{ bank[1].Report.Olie-gas.Grade }}</td>            
+        <td>{{ bank[1].Report.Olie-gas.Grade }}</td>
         {% endfor %}
     </tr>
 </table>

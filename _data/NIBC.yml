@@ -1,5 +1,5 @@
 Name: "NIBC"
-Logo: "URL"
+Logo: "/img/nibc.svg"
 Report:
   Bonussen:
     Grade: 0
@@ -64,5 +64,3 @@ Report:
   Olie-gas:
     Grade: 0
     Remarks: ""
-
-    
