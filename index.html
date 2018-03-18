@@ -16,15 +16,15 @@ title: {{ site.name }}
 <p id="tabel">bunq investeert alleen in staatsobligaties, aangezien dit verplicht is voor een bankvergunning van DNB. Er wordt zo min mogelijk geïnvesteerd door bunq, omdat deze bank ervan uitgaat dat het geld dat jij op de bank zet ook van jou is en dus niet geïnvesteerd moet worden in dingen waar je het misschien helemaal niet mee eens bent.</p>
 
 {% assign data_set = site.data | sort %}
-<table class="banks">
-    <thead>
+<table>
+    <tr>
         <th></th>
         {% for bank in data_set %}
         <th>
             <img src="{{ bank[1].Logo }}" alt="{{ bank[1].Name }}" />
         </th>
         {% endfor %}
-    </thead>
+    </tr>
     <tr>
         <td>Bonussen</td>
         {% for bank in data_set %}
@@ -156,9 +156,3 @@ title: {{ site.name }}
 
 <h4>Disclaimer</h4>
 <p>Aan de uitspraken en cijfers op deze website kunnen geen rechten worden ontleend.</p>
-
-<script>
-$('.banks').floatThead({
-    position: 'fixed'
-    });
-</script>
