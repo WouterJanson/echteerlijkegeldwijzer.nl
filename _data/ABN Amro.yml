@@ -2,7 +2,7 @@ Name: "ABN Amro"
 Logo: "img/abn-amro.svg"
 Report:
   Bonussen:
-    Grade: "5"
+    Grade: 5
     Remarks: ""
   Dierenwelzijn:
     Grade: 7
