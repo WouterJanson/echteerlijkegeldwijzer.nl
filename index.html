@@ -1,29 +1,145 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Echteerlijkegeldwijzer.nl</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body>
+--- 
+layout: default 
+title: {{ site.name }} 
+---
 
-			<header id="header">
-				<h1>We zijn er bijna...</h1>
-				<p>Op dit moment wordt er gewerkt aan deze website.</p>
-			</header>
+<h3>Lorem ipsum</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt maximus molestie. Ut tellus sapien, euismod ac purus vitae, sodales maximus ligula. Fusce pretium, ligula vitae iaculis aliquam, nunc massa aliquet massa, vitae sodales nisl purus id nulla. Nam nec quam sit amet lorem vulputate bibendum non eget dui. Quisque sit amet leo interdum, finibus massa volutpat, feugiat ipsum. In nec pharetra mauris. Sed quis tortor at lectus tristique finibus. Fusce ac augue in dui venenatis venenatis nec sit amet nulla. Praesent posuere justo erat, id hendrerit nisi interdum at. Quisque quis erat eget nisl convallis blandit. Nunc ut dignissim metus. Nulla blandit neque vel egestas blandit. Donec molestie sapien ac leo posuere, feugiat egestas urna tempus.</p>
 
-	
-			<footer id="footer">
-				<ul class="copyright">
-					<li>&copy; Echteerlijkegeldwijzer</li>
-				</ul>
-			</footer>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+{% assign data_set = site.data || sort %}
+<table>
+    <tr>
+        <th></th>
+        {% for file in data_set %}
+        <th>{{ file[1].Name }}</th>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>Bonussen</td>
+        {% for file in data_set %}
+        <td>{{ file[1].Report.Bonussen.Grade }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>Dierenwelzijn</td>
+        {% for file in data_set %}
+        <td>{{ file[1].Report.Dierenwelzijn.Grade }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>Klimaatverandering</td>
+        {% for file in data_set %}
+        <td>{{ file[1].Report.Klimaatverandering.Grade }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>Transparantie</td>
+        {% for file in data_set %}
+        <td>{{ file[1].Report.Transparantie.Grade }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>Gezondheid</td>
+        {% for file in data_set %}
+        <td>{{ file[1].Report.Gezondheid.Grade }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>Gendergelijkheid</td>
+        {% for file in data_set %}
+        <td>{{ file[1].Report.Gendergelijkheid.Grade }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>Wapens</td>
+        {% for file in data_set %}
+        <td>{{ file[1].Report.Wapens.Grade }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>Mensenrechten</td>
+        {% for file in data_set %}
+        <td>{{ file[1].Report.Mensenrechten.Grade }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>Arbeidsrechten</td>
+        {% for file in data_set %}
+        <td>{{ file[1].Report.Arbeidsrechten.Grade }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>Woningbouw & vastgoed</td>
+        {% for file in data_set %}
+        <td>{{ file[1].Report.Woningbouw-vastgoed.Grade }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>Bosbouw</td>
+        {% for file in data_set %}
+        <td>{{ file[1].Report.Bosbouw.Grade }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>Corruptie</td>
+        {% for file in data_set %}
+        <td>{{ file[1].Report.Corruptie.Grade }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>Visserij</td>
+        {% for file in data_set %}
+        <td>{{ file[1].Report.Visserij.Grade }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>Financiële sector</td>
+        {% for file in data_set %}
+        <td>{{ file[1].Report.Financiele-sector.Grade }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>Elektriciteitsproductie</td>
+        {% for file in data_set %}
+        <td>{{ file[1].Report.Elektriciteitsproductie.Grade }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>Natuur</td>
+        {% for file in data_set %}
+        <td>{{ file[1].Report.Natuur.Grade }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>Belastingen</td>
+        {% for file in data_set %}
+        <td>{{ file[1].Report.Belastingen.Grade }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>Voeding</td>
+        {% for file in data_set %}
+        <td>{{ file[1].Report.Voeding.Grade }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>Maakindustrie</td>
+        {% for file in data_set %}
+        <td>{{ file[1].Report.Maakindustrie.Grade }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>Mijnbouw</td>
+        {% for file in data_set %}
+        <td>{{ file[1].Report.Mijnbouw.Grade }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>Olie en gas</td>
+        {% for file in data_set %}
+        <td>{{ file[1].Report.Olie-gas.Grade }}</td>            {% endfor %}
+    </tr>
+</table>
 
-	</body>
-</html>
+<h4>Disclaimer</h4>
+<p>Ut tellus sapien, euismod ac purus vitae, sodales maximus ligula. Fusce pretium, ligula vitae iaculis aliquam, nunc massa aliquet massa, vitae sodales nisl purus id nulla. Nam nec quam sit amet lorem vulputate bibendum non eget dui. Quisque sit amet leo interdum, finibus massa volutpat, feugiat ipsum.</p>

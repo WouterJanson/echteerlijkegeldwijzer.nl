@@ -1,0 +1,19 @@
+tbody {
+    margin: auto;
+}
+
+th {
+    background-color: #202020;
+    color: #fff;
+    border-color: #202020;
+}
+
+td:not(:first-child) {
+    text-align: center;
+}
+  
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+@media screen and (min-width: 64em) { .main-content { max-width: 80rem; padding: 2rem 6rem; margin: 0 auto; font-size: 1.1rem; } }

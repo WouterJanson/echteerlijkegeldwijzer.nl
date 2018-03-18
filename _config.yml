@@ -1,0 +1,18 @@
+# Setup
+title:        Echt Eerlijke Geldwijzer
+tagline:      De eerlijke geld wijzer, maar dan écht eerlijk!
+baseurl:      ""
+paginate:     1
+locale:       "nl"
+
+# About/contact
+author:
+  name:       een groep bunqers
+  url:        https://github.com/WouterJanson/echteerlijkegeldwijzer.nl
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
