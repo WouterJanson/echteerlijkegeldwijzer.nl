@@ -1,6 +1,7 @@
 # echteerlijkegeldwijzer.nl
 
 A live version of the master branch is viewable at: https://wouterjanson.github.io/echteerlijkegeldwijzer.nl/
+
 Website will be published to https://echteerlijkegeldwijzer.nl/ when it's done.
 
 ## Instructions
