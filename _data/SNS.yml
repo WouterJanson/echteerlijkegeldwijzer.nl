@@ -2,65 +2,65 @@ Name: "SNS"
 Logo: "img/sns.svg"
 Report:
   Bonussen:
-    Grade: 0
+    Grade: 6
     Remarks: ""
   Dierenwelzijn:
-    Grade: 0
+    Grade: 8
     Remarks: ""
   Klimaatverandering:
-    Grade: 0
+    Grade: 9
     Remarks: ""
   Transparantie:
-    Grade: 0
+    Grade: 8
     Remarks: ""
   Gezondheid:
-    Grade: 0
+    Grade: 9
     Remarks: ""
   Gendergelijkheid:
-    Grade: 0
+    Grade: 1
     Remarks: ""
   Wapens:
-    Grade: 0
+    Grade: 9
     Remarks: ""
   Mensenrechten:
-    Grade: 0
+    Grade: 9
     Remarks: ""
   Arbeidsrechten:
-    Grade: 0
+    Grade: 10
     Remarks: ""
   Woningbouw-vastgoed:
-    Grade: 0
+    Grade: 4
     Remarks: ""
   Bosbouw:
-    Grade: 0
+    Grade: 8
     Remarks: ""
   Corruptie:
-    Grade: 0
+    Grade: 9
     Remarks: ""
   Visserij:
-    Grade: 0
+    Grade: 7
     Remarks: ""
   Financiele-sector:
-    Grade: 0
+    Grade: 6
     Remarks: ""
   Elektriciteitsproductie:
-    Grade: 0
+    Grade: 8
     Remarks: ""
   Natuur:
-    Grade: 0
+    Grade: 9
     Remarks: ""
   Belastingen:
-    Grade: 0
+    Grade: 7
     Remarks: ""
   Voeding:
-    Grade: 0
+    Grade: 9
     Remarks: ""
   Maakindustrie:
-    Grade: 0
+    Grade: 7
     Remarks: ""
   Mijnbouw:
-    Grade: 0
+    Grade: 9
     Remarks: ""
   Olie-gas:
-    Grade: 0
+    Grade: 8
     Remarks: ""
