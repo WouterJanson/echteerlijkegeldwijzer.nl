@@ -14,6 +14,38 @@ tbody {
 
 td:not(:first-child) {
     text-align: center;
+    font-weight: bold;
+}
+
+td[data="10"] { 
+    color: #009933;
+}
+td[data="9"] { 
+    color: #009933;
+}
+td[data="8"] { 
+    color: #009933;
+}
+td[data="7"] { 
+    color: #ffcc00;
+}
+td[data="6"] { 
+    color: #ffcc00;
+}
+td[data="5"] { 
+    color: #ff6600;
+}
+td[data="4"] { 
+    color: #ff6600;
+}
+td[data="3"] { 
+    color: #cc0000;
+}
+td[data="2"] { 
+    color: #cc0000;
+}
+td[data="1"] { 
+    color: #800000;
 }
 
 tr:nth-child(odd) {
