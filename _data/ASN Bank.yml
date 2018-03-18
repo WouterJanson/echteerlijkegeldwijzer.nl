@@ -2,7 +2,7 @@ Name: "ASN Bank"
 Logo: "img/asn-bank.svg"
 Report:
   Bonussen:
-    Grade: "10"
+    Grade: 10
     Remarks: ""
   Dierenwelzijn:
     Grade: 9
