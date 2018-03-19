@@ -58,6 +58,10 @@ td[data="1"] {
     color: #800000;
 }
 
+.table-cell-remark {
+    background: linear-gradient(45deg, transparent 85%, #819198 15%);
+}
+
 tr:nth-child(odd) {
     background-color: #f2f2f2;
 }
