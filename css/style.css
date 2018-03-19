@@ -25,6 +25,7 @@ tbody {
 td:not(:first-child) {
     text-align: center;
     font-weight: bold;
+    min-width: 82px;
 }
 
 td[data="10"] { 
