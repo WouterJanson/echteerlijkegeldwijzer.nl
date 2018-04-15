@@ -2,7 +2,7 @@ Name: "Knab"
 Logo: "img/knab.svg"
 Report:
   Bonussen:
-    Grade: ?
+    Grade: "?"
     Remarks: ""
   Dierenwelzijn:
     Grade: 4
@@ -11,13 +11,13 @@ Report:
     Grade: 4
     Remarks: "Aegon verwacht van ondernemingen dat zij beleid voeren om klimaatverandering tegen te gaan, en dat zij transparant zijn over hun directe en indirecte CO2-uitstoot. Echter hanteert Aegon geen meetbare reductiedoelstellingen voor bedrijven en streeft ze niet na om zelf klimaatneutraal te zijn. Mijnbouwbedrijven die ten minste 30% van de omzet genereren met thermische kolenwinning worden uitgesloten van het beleggingsuniversum."
   Transparantie:
-    Grade: ?
+    Grade: "?"
     Remarks: ""
   Gezondheid:
-    Grade: ?
+    Grade: "?"
     Remarks: ""
   Gendergelijkheid:
-    Grade: ?
+    Grade: "?"
     Remarks: ""
   Wapens:
     Grade: 8
@@ -44,16 +44,16 @@ Report:
     Grade: 3
     Remarks: "Aegon verwijst naar enkele richtlijnen zoals de UN Global Compact en de OESO, waar de bank zich ook wat betreft de financiële sector aan houdt, daarnaast noemt de bank enkele themaś die extra aandacht vragen, maar er worden weinig specifieke eisen gesteld aan bedrijven in de financiële sector."
   Elektriciteitsproductie:
-    Grade: ?
+    Grade: "?"
     Remarks: ""
   Natuur:
     Grade: 6
     Remarks: "Ondernemingen moeten in hun vestigingsbeleid en bij het betrekken van grondstoffen de natuur en het milieu beschermen, bijvoorbeeld door het tegengaan van ontbossing en door behoud van watergebieden. Daartoe behoort een monitoringssysteem dat toetst of geldende wetgeving en interne procedures worden nageleefd. Bedrijven die een verhoogd risico lopen op aantasting van biodiversiteit behoren internationale regelgeving strikt na te leven, en openheid te verschaffen over maatregelen die behoud van biodiversiteit bevorderen. Wat betreft handel in bedreigde soorten wilde dieren en planten houdt Aegon haar ondernemingen aan het CITES verdrag dat deze handel reguleert."
   Belastingen:
-    Grade: ?
+    Grade: "?"
     Remarks: ""
   Voeding:
-    Grade: ?
+    Grade: "?"
     Remarks: ""
   Maakindustrie:
     Grade: 6
